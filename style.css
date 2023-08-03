@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    background-color: rgb(216, 208, 165);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(88, 3, 3);
+
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+header{
+    background-size: 100vh;
+    /* background-repeat: no-repeat; */
+    background-image: url(img/kingnqueen.JPG);
+    min-height: 55vh;
+    align-items: center;
+    place-content: center;
+    
+}
+header h1{
+    font-size: 500%;
+    font-family: monospace;
+    color: #fff;
+    text-shadow: 2px 2px 5px brown;
+    text-align: right;
+    margin-top: 50px;
+    
+    }
+
+header p{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(83, 4, 4);
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+h2{
+    font-family: monospace;
+    text-align: center;
+    color: rgb(83, 4, 4);
+    margin-top: 5px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 10px;
+
+}
+.box1{
+    color: #fff;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background:rgb(136, 63, 63);
+    line-height: 1.5;
+    padding: 30px;
+    text-align: justify;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -3px -3px 5px #440e0eb0,
+    inset 3px 3px 5px rgba(56, 4, 4, 0.945);
+    
+}
+.box2{
+    color: #000;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background:whitesmoke;
+    line-height: 1.5;
+    padding: 30px;
+    text-align: justify;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -3px -3px 5px #440e0eb0,
+    inset 3px 3px 5px rgba(56, 4, 4, 0.945);
+    
+}
+
+.box3{
+    color: #fff;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    background:rgb(136, 63, 63);
+    line-height: 1.5;
+    padding: 30px;
+    text-align: justify;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -3px -3px 5px #440e0eb0,
+    inset 3px 3px 5px rgba(56, 4, 4, 0.945);
+    
+}
+#about{
+    background-color: beige;
+    border-bottom: 20px solid brown;
+    border-right: 20px solid brown;
+    margin-top: 50px;
+    
+    /* border-radius: 20px; */
+    box-shadow: 3px 10px 20px #000;
+    max-width: 80vw;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+figure img{
+    width: 250px;
+    height: auto;
+    border: 5px double gray;
+    border-radius: 50%;
+    gap: 20px;
+}
+.ken{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+.ken p{
+    text-align: left;
+    text-align: justify;
+}
+
+#contact{
+    margin-top: 50px;
+}
+fieldset{
+    border: none;
+    background-color:#360404b0;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+legend{
+    color: #fff;
+    padding-bottom: 20px;
+    
+}
+
+.fr{
+    width: 50vw;
+    font-style: oblique;
+    font-size: large;
+    }
+.fr label {
+        padding: 15px;
+        margin-top: 15px;
+        font-size: 17px;
+        color: goldenrod;
+        
+        
+      }
+.fr input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px;
+    margin: 10px;
+}
+.fr textarea{
+    width: 340px;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+.fr button{
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+
+.ny{
+    background-color: rgb(87, 31, 31);
+    display:flex;
+    justify-content: flex-start;
+    align-items: start;
+    min-height: 400px;
+    gap: 50px;
+    padding: 10px;
+    
+
+}
+.login{
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: end;
+    place-content: end;
+    
+    
+    
+}
+
+.login
+input,
+button {
+    font: inherit;
+    display: inline-block;
+    
+}
+
+.login label{
+    color: goldenrod;
+    padding: 10px;
+    margin-right: -100px;
+    
+    
+    
+}
+
+
+.login input{
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.login button{
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+    margin-top: 10px;
+    margin-left: 91px;
+ }
+
+ .login input[type=password] {
+    margin-left: 100px;
+ }
+ .login input[type=text] {
+    margin-left: 96px;
+ }
+ 
+
+
+
+.search {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    width: 60vw;
+    margin-top: 30px;
+    
+  }
+  
+  .search a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #2196F3;
+    font-size: 17px;
+  }
+  
+  .search a:hover {
+    background-color: brown;
+    color:#fff;
+  }
+  
+  .search a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .search .search-container {
+    float: right;
+  }
+  
+  .search input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .search .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 3, 3);
+    color: #fff;
+    border-top: 5px solid goldenrod;
+  }
